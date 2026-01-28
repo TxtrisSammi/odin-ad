@@ -3,6 +3,10 @@
     color: inherit;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     margin: 0;
     height: 100%;
