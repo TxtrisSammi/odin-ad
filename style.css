@@ -10,7 +10,7 @@ html {
 
 body {
     display: grid;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 1fr 15fr;
     grid-template-columns: 3fr 16fr;
     margin: 0;
     height: 100%;
@@ -103,7 +103,7 @@ img {
 }
 
 #bigpfp {
-    margin: 2cqw 2.5cqw;
+    margin: 10px 2.5cqw;
     height: 75px;
     width: 75px;
 }
@@ -145,7 +145,7 @@ h2 {
 
 div.buttons {
     flex-shrink: 0;
-    padding: 1.5cqw 4cqw;
+    padding: 0cqw 4cqw;
 }
 
 button {
@@ -158,4 +158,38 @@ button {
     margin-right: 14px;
 }
 
+div.card {
+    background-color: rgb(255, 235, 255);
+}
 
+div.main {
+    display: grid;
+    grid-template-rows: 0.5fr 6fr 3fr;
+    grid-template-columns: 10fr 4fr;
+}
+
+div.mainhead {
+    /* background-color: red; */
+    grid-area: 1/1/2/3;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 11cqw 0px 2cqw;
+    font-weight: 500;
+    height: 45px;
+}
+
+div.cardcontainer {
+    background-color: blue;
+    grid-area: 2/1/4;
+    display: flex;
+}
+
+div.misccontainer {
+    background-color: red;
+    grid-area: 2/2/4/3;
+}
+
+div.card {
+    max-width: 45cqw;
+    max-height: 20cqh;
+}
